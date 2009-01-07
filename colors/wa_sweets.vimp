@@ -1,10 +1,18 @@
 " ==Vimperator_Color_Scheme==
-" name: default
-" ==Defult_Colorscheme_Settings==
+" name: wa_sweets
+" ==Japanese_Sweet_Concept_Colorscheme_Settings==
+
 " Color Definission {{{
-" moegi = '#aacf53'
-" suna_iro = '#dcd3b2'
+" ==================================================
 " karasuba_iro = '#180614'
+" kurobeni = '#302833'
+" kurotobi = '#432f2f'
+" moegi = '#aacf53'
+" mushiguri_iro = '#ede4cd'
+" suna_iro = '#dcd3b2'
+" tankou = '#f8e58c'
+" tsutsuji_iro = '#e95295'
+" tsuyukusa_iro = '#38a1db'
 " }}}
 
 " highlight settings {{{
@@ -42,7 +50,7 @@ hi HintElem				background-color: #f8e58c; color: #180614; " BG:TANKOU
 hi HintImage				opacity: .5;
 hi Indicator				color: #38a1db;
 hi InfoMsg				color: #a58f86; background: #432f2f;
-" TSUTSUJI_IRO
+
 hi Keyword				color: #e95295;
 hi LineNr				color: orange; background: #432f2f;
 hi Message				#432f2f-space: normal; min-width: 100%; padding-left: 2em; text-indent: -2em; display: block;
@@ -50,22 +58,17 @@ hi ModeMsg				color: #a58f86; background: #432f2f;
 hi MoreMsg				color: #aacf53; background: #432f2f;
 
 hi NonText				color: #38a1db;  background: #432f2f; min-height: 16px; padding-left: 2px;
-hi Normal				color: white; background: #432f2f; font-size: 12px;/* CL:white BG:KUROTOBI */
- " TSUYUKUSA_IRO
-hi Null					color: #38a1db;
- " TSUYUKUSA_IRO
-hi Number				color: #38a1db;
+hi Normal				color: white; background: #432f2f; font-size: 12px; " CL:white BG:KUROTOBI
+hi Null					color: #38a1db; " TSUYUKUSA_IRO
+hi Number				color: #38a1db; " TSUYUKUSA_IRO
 hi Object				color: #e9546b;
 hi Preview				color: gray;
 hi Question				color: #aacf53; background: #432f2f; font-weight: bold;
 hi Search				font-size: inherit; padding: 0; color: black; background-color: yellow; padding: 0;
 
-" CL:MOEGI BG:KUROBENI
-hi StatusLine				font-size: 15px; color: #aacf53; background: #302833;  
-" light-red
-hi StatusLineBroken			color: black; background: #FF6060;
- " light-#aacf53
-hi StatusLineSecure			color: black; background: #B0FF00;
+hi StatusLine				font-size: 15px; color: #aacf53; background: #302833; " CL:MOEGI BG:KUROBENI
+hi StatusLineBroken			color: black; background: #FF6060; " light-red
+hi StatusLineSecure			color: black; background: #B0FF00; " light-green
 
 hi String				color: #aacf53;
 hi TabClose				
